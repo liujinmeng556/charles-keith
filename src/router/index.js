@@ -3,9 +3,10 @@ import {
     Bags,
     Sort,
     Mine,
-    Login
+    Login,
+    News,
+    Cools
 } from "@pages"
-
 
 
 export const layoutRoutes = [
@@ -19,7 +20,31 @@ export const layoutRoutes = [
         meta: {
             requireAuth: false,
             flag: true
-        }
+        },
+        children: [
+            {
+                key: "/shopping/news",
+                path: "/shopping/news",
+                name: "新品",
+                component: News,
+                exact: true,
+                meta: {
+                    requireAuth: false,
+                    flag: true
+                },
+            }, {
+                key: "/shopping/cools",
+                path: "/shopping/cools",
+                name: "人气推荐",
+                component: Cools,
+                exact: true,
+                meta: {
+                    requireAuth: false,
+                    flag: true
+                },
+            },
+
+        ]
     },
     {
         key: "/sort",

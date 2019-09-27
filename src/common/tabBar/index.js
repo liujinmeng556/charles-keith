@@ -13,7 +13,7 @@ export default class TabBar extends Component {
                             <li key={item.key}>
                                 <NavLink to={item.path}>
                                     <i className="iconfont">{item.icon}</i>
-                                    <span>{item.name}</span>
+                                    <span className="sp">{item.name}</span>
                                 </NavLink>
                             </li>
                         ))

@@ -1,4 +1,5 @@
 import Loadable from "react-loadable";
+
 import Loading from "@common/loading";
 
 
@@ -27,13 +28,23 @@ const Login = Loadable({
     loading: Loading
 })
 
+const News = Loadable({
+    loader: () => import("./shopping/news"),
+    loading: Loading
+})
 
+const Cools = Loadable({
+    loader: () => import("./shopping/cools"),
+    loading: Loading
+})
 
 export {
     Shopping,
     Bags,
     Sort,
     Mine,
-    Login
+    Login,
+    News,
+    Cools
 
 }

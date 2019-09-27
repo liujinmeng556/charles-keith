@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const TabBarWrapper = styled.div`
+    
     width:100%;
     height:1rem;
     position:fixed;
@@ -8,6 +9,7 @@ export const TabBarWrapper = styled.div`
     bottom:0;
     background:#fff;
     border-top:1px solid #ccc;
+    
     ul,li{
         width:100%;
         height:100%;
@@ -29,5 +31,8 @@ export const TabBarWrapper = styled.div`
     }
     .active{
         color:#c33;
+    }
+    .sp{
+        font-size:0.24rem
     }
 `
