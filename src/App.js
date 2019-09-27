@@ -3,6 +3,7 @@ import renderRoutes from "@utils/renderRoutes"
 import { baseConfigRoutes } from "@router"
 import { Switch, Redirect } from "react-router-dom"
 
+
 class App extends Component {
   render() {
     return (
