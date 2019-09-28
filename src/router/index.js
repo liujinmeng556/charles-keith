@@ -32,7 +32,8 @@ export const layoutRoutes = [
                     requireAuth: false,
                     flag: true
                 },
-            }, {
+            },
+            {
                 key: "/shopping/cools",
                 path: "/shopping/cools",
                 name: "人气推荐",
@@ -66,7 +67,7 @@ export const layoutRoutes = [
         component: Bags,
         exact: true,
         meta: {
-            requireAuth: true,
+            requireAuth: false,
             flag: true
         }
     },

@@ -13,7 +13,6 @@ export default (routes) => {
                     <Redirect to={route.children[0].path} />
                     <Switch>
                         {
-
                             route.children.map((child) => {
                                 if (child.children) {
                                     return eachRoutes(child)

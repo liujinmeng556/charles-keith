@@ -45,6 +45,7 @@ export {
     Mine,
     Login,
     News,
-    Cools
+    Cools,
+    Loadable
 
 }

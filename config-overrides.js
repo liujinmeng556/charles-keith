@@ -17,7 +17,8 @@ module.exports = override(
         "@pages": path.join(__dirname, "./src/pages"),
         "@router": path.join(__dirname, "./src/router"),
         "@store": path.join(__dirname, "./src/store"),
-        "@utils": path.join(__dirname, "./src/utils")
+        "@utils": path.join(__dirname, "./src/utils"),
+
     })
 
 );

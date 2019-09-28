@@ -51,8 +51,9 @@ li {
 
 body {
   color: #333;
-  font: 12px "SimSun", "宋体", "Arial Narrow", HELVETICA;
+  font-size: 12px;
   background: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
 }
 
 a {

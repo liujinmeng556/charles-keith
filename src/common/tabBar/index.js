@@ -8,6 +8,7 @@ export default class TabBar extends Component {
         return (
             <TabBarWrapper>
                 <ul>
+
                     {
                         layoutRoutes.map(item => (
                             <li key={item.key}>
